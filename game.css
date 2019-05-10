@@ -1,11 +1,16 @@
 body {
   background-color: #232323;
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
   color: white;
+  font-weight: normal;
   text-align: center;
   background: steelblue;
   margin: 0;
+  text-transform: uppercase;
+  padding: 20px 0;
+
 }
 #stripe{
   background-color: white;
@@ -14,7 +19,7 @@ h1 {
   color: black;
 }
 #container {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 600px;
 }
 .square {
@@ -23,7 +28,38 @@ h1 {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
+  border-radius: 25%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7S;
 }
 .selected {
-  background: blue;
+  color: white;
+  background: steelblue;
+}
+#colorDisplay{
+  font-size: 200%;
+}
+#message{
+  display: inline-block;
+  width: 10%;
+}
+button{
+  outline: none;
+  border: none;
+  background: none;
+  text-transform: capitalize;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4sS;
+
+}
+button:hover {
+  color: white;
+  background: steelblue;
 }

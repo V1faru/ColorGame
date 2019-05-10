@@ -7,18 +7,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
     <link rel="stylesheet" href="game.css">
     <title>Color Game!</title>
   </head>
   <body>
 
-    <h1>The Great <span id="colorDisplay">RGB</span> Color Game</h1>
+    <h1>
+      The Great
+      <br>
+      <span id="colorDisplay">RGB</span>
+      <br>
+      Color Game
+    </h1>
 
     <div id="stripe" class="">
       <button id="reset" type="button" name="button">New Colors</button>
       <span id="message"></span>
-      <button id="easyBtn" type="button" name="button">Easy</button>
-      <button id="hardBtn" class="selected" type="button" name="button">Hard</button>
+      <button class="mode" type="button" name="button">Easy</button>
+      <button class="mode selected" type="button" name="button">Hard</button>
     </div>
 
     <div id="container">
